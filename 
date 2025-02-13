@@ -1,0 +1,53 @@
+[33mcommit eb36c750f1b1d472afaa43a9eff9bd6e0adefd79[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: FitoFire <68967952+fitofire@users.noreply.github.com>
+Date:   Thu Feb 13 15:07:47 2025 -0800
+
+    Added server side validation
+
+[33mcommit 5dae11bc4ab69e4968689e2d5537fbff3b514f5e[m
+Author: FitoFire <68967952+fitofire@users.noreply.github.com>
+Date:   Thu Feb 13 14:43:59 2025 -0800
+
+    Added Client Side Validation for the Create Diary Form
+
+[33mcommit 56c8ba34613e73d88a40da0671afa70824a8e51f[m
+Author: FitoFire <68967952+fitofire@users.noreply.github.com>
+Date:   Thu Feb 13 13:13:32 2025 -0800
+
+    Created Action and View for our button and added tag helpers to the button
+
+[33mcommit f9a8ef62c482cc7fce009cba7c42b2c8f06427f5[m
+Author: FitoFire <68967952+fitofire@users.noreply.github.com>
+Date:   Thu Feb 13 13:02:53 2025 -0800
+
+     Added a button in out Views/DataEntries/Index.cshtml file
+
+[33mcommit ca477439c017fedb64f4f6311697a36f535e6f1d[m
+Author: FitoFire <68967952+fitofire@users.noreply.github.com>
+Date:   Thu Feb 13 12:48:45 2025 -0800
+
+    Added Read Data (CRUD) to DiaryEntriesController.cs to be able to read data and insert it into a table
+
+[33mcommit 748b903075af581c899dce4b22339429fb657fd2[m
+Author: FitoFire <68967952+fitofire@users.noreply.github.com>
+Date:   Thu Feb 13 10:23:14 2025 -0800
+
+    Updated connection string misspelling, and migrated and updated database
+
+[33mcommit a7438ba676e1793e2256b06974cbfd5913d231bb[m
+Author: FitoFire <68967952+fitofire@users.noreply.github.com>
+Date:   Thu Feb 13 10:13:08 2025 -0800
+
+    Added Connection String, ApplicationDbContext, updated Diary.cs Model file. I should now be able to Create Database with migrations
+
+[33mcommit f0649a1f6aa1e861a1f725ee616353e0e995b0af[m
+Author: FitoFire <68967952+fitofire@users.noreply.github.com>
+Date:   Wed Feb 12 21:35:55 2025 -0800
+
+    Started with blank asp.net core mvc template, added lib files, added microsoft entity framework core, added HomeController, Home Index view, _ViewStart, _ViewImports, _ValidationScriptsPartial, _Layout, DiaryEntry.cs Model
+
+[33mcommit a399ebd5f99b7f1d39d9796136c2cd32b9eda949[m
+Author: FitoFire <68967952+fitofire@users.noreply.github.com>
+Date:   Wed Feb 12 21:23:17 2025 -0800
+
+    Initial commit
