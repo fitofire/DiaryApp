@@ -1,7 +1,16 @@
+// Adding the necessary using directives, including the Models namespace
+using DiaryApp.Data;
+using DiaryApp.Models;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+// Add Entity Framework Core enabling Dependency Injection for DbContext objects
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("ApplicationDbContext")));
 
 var app = builder.Build();
 
