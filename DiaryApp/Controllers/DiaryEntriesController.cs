@@ -103,5 +103,14 @@ namespace DiaryApp.Controllers
 
             return View(diaryEntry);
         }
+
+        [HttpPost]
+        public IActionResult Delete(DiaryEntry obj)
+        {
+
+            _db.DiaryEntries.Remove(obj);  // Remove the diary entry from the database
+            _db.SaveChanges();  // Saves the changes to the database
+            return RedirectToAction("Index");
+        }
     }
 }
